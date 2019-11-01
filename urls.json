@@ -1,0 +1,39 @@
+{
+  "auth": {
+    "config": {
+      "auth": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/auth/config/auth.js",
+      "keys": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/auth/config/keys.js",
+      "passport": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/auth/config/passport.js"
+    },
+    "models": {
+      "user": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/auth/models/User.js"
+    },
+    "routes": {
+      "auth": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/auth/routes/auth.js"
+    },
+    "controllers": {
+      "user": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/auth/controllers/userController.js"
+    }
+  },
+  "views": {
+    "login": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/views/login.ejs",
+    "register": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/views/register.ejs",
+    "dashboard": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/views/dashboard.ejs",
+    "partials": {
+      "messages": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/views/partials/messages.ejs"
+    },
+    "welcome": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/views/welcome.ejs",
+    "layout": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/views/layout.ejs"
+  },
+  "templates": {
+    "makeauth": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/templates/makeauth.txt"
+  },
+  "packages": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/package.json",
+  "server": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/server.js",
+  "routes": {
+    "index": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/routes/index.js"
+  },
+  "controllers": {
+    "index": "https://raw.githubusercontent.com/BeansJS/caramel-bean-template/master/controllers/indexController.js"
+  }
+}
